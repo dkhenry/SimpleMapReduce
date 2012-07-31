@@ -8,7 +8,7 @@ This was done as a proof of concept to see what could easly be done with Akka.
 
 All You Should need ot run this example is SBT 11.0+ 
 
-## Explination
+## Explanation
 
 Lets walk through the code. The first thing we need to do is establish the signaling beetween Actors. For this specific example I am going to use line oriented data [String] and the results will be in the form of Map[String,Int]. While I could have added the data set to the Request signal, I wanted to model something with an unknown distributed data set 
 
